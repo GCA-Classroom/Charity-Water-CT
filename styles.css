@@ -1,0 +1,36 @@
+/* Set basic styles for the whole page */
+/* Set basic styles for the whole page */
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #be9b54;
+  color: #160e4e;
+}
+
+/* Style for main headings */
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #f4d03f;
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 600px) {
+  .hero {
+    text-align: center;
+    padding: 20px;
+  }
+  .cta-logo,
+  .main-image {
+    width: 90%;
+    max-width: 250px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  p {
+    font-size: 1.1em;
+  }
+}
